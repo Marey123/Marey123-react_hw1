@@ -1,0 +1,46 @@
+.status-online{
+    color: rgb(96, 187, 6);
+ 
+   
+}
+.status-offline{
+    color: crimson;
+   
+}
+.friend-list{
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   margin-top: -400px;
+  margin-left: 450px;
+  
+  
+}
+
+.friend-list img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    transition: transform var(--animation-duration) var(--timing-function);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  
+   
+}
+.friend-list .item{
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    background-color: #FFE8DB;
+    border: 3px radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    margin: 10px;
+    width:120px;
+    height: 120px;
+    text-align: center;
+    box-shadow: 5px 10px 20px rgba(255, 4, 4, 0.877), -5px -10px 20px rgba(255, 145, 1, 0.986);
+
+}
+.friend-list .name{
+font-size: 20px;
+margin-top: 5px;
+}

@@ -1,0 +1,88 @@
+.profile{
+    display: inline-block;
+    align-items: center;
+    justify-content: left;
+    height:400px;
+    width: 400px; 
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    background-color: #FFE8DB;
+    border: 6px solid #FF5A00;
+    border-radius: 15px 100px 15px 100px;
+    box-shadow: 5px 10px 20px rgba(255, 4, 4, 0.877), -5px -10px 20px rgba(255, 145, 1, 0.986);
+    
+}
+
+.description img{
+    height: 60%;
+    width: 60%;
+    object-fit: cover;
+    transition: transform var(--animation-duration) var(--timing-function);
+    margin-left: 50px;
+}
+
+.first_stats{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 40px;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    background: radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    border: 3px radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    border-radius: 5px;
+    width: 400px; 
+    margin-left: -20px;
+    box-shadow: 5px 10px 20px rgba(255, 4, 4, 0.877), -5px -10px 20px rgba(255, 145, 1, 0.986);
+    margin-top:50px;
+}
+.label_1{
+    margin-left: 5px;
+    margin-right: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name_1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    background: radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    border: 3px radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  
+}
+
+.tag{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    background: radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    border: 3px radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+
+.location{
+    width: 300px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    background: radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    border: 3px radial-gradient(farthest-side ellipse at top left, rgb(255, 145, 0), #e62828);
+    border-radius: 25px;
+    text-align: center; 
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.quantity{
+    margin-left: -5px;
+}
+
